@@ -64,7 +64,7 @@
     ],
     "hackernews": {
       "enabled": true,
-      "fetch_top_stories": 30,
+      "fetch_top_stories": 20,
       "min_score": 150,
       "profile": "tech-news"
     },
@@ -153,7 +153,7 @@
         {
           "channel": "zaihuapd",
           "enabled": true,
-          "fetch_limit": 20,
+          "fetch_limit": 10,
           "profile": "tech-news",
           "category": "tech-news"
         }
@@ -164,7 +164,7 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 10,
+    "max_items": 8,
     "profile_order": [
       "tech-news",
       "tech-blog",
