@@ -1,11 +1,12 @@
 {
   "ai": {
-    "provider": "gemini",
-    "model": "gemini-3.8-flash",
-    "api_key_env": "GOOGLE_API_KEY",
+    "provider": "openai",
+    "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "base_url": "https://openrouter.ai/api/v1",
+    "api_key_env": "OPENAI_API_KEY",
     "temperature": 0.3,
     "max_tokens": 8192,
-    "throttle_sec": 0,
+    "throttle_sec": 1,
     "languages": [
       "zh",
       "en"
