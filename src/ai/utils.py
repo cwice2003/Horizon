@@ -23,7 +23,9 @@ def parse_json_response(response: str) -> Optional[dict]:
 
     Returns the parsed dict, or None if all strategies fail.
     """
-    text = response.strip()
+    if response is None:
+                return None
+        text = response.strip()
 
     # Strategy 1: direct parse
     try:
